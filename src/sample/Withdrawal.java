@@ -12,4 +12,5 @@ public class Withdrawal {
     private Keypad keypad; //ATM's keypad
     //no argument constructor
     public Withdrawal(){ }
+
 }
