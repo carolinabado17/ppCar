@@ -1,86 +1,43 @@
 # Car Design
-Designing a program using object-oriented programming to design a car and its features.
-
-(1) Worked on two interfaces 'Chassis' and 'Engine'. 
-(2) Implemented 'Chassis' in two concrete classes 'VehicleChassis' and 'VehicleFrame'. 
-(3) Implemented 'Engine' in 'ManufacturedEngine' concrete class. 
-(4) 
-# Car Design
-
-One paragraph of project description goes here.<br />
-Briefly address the 5 W's. <br />
-What is the project?<br />
-Who made it? Did you make it independently or with a team?<br />
-When did you make it? At what level of experience and proficiency were / are you?<br />
-Why did you make it? For fun? For an assignment? How does it relect you as a person?<br />
-Where did you make it? What school / class?<br />
-Note for school project: this may be the only thing someone visiting your page reads. Try to make a great impression. Make someone want to hire you. This section will also be useful to you in the future to remind you about the project. 
-
+Designing a program using object-oriented programming to design a car and its features.<br />
+This project was for COP 3003- Object-Oriented Programming with Professor Vanselow. It was part of a personal project assigment for Fall 2019. 
 
 ## Documentation
 
-Create a docs folder in your project. If using Java, generate JavaDoc in your IDE. If using C++, use Doxygen. Change repository settings (using Settings at top of page) to use GitHub Pages with your docs folder. Add a link to the javadoc/doxygen index.html file with this markdown: \[Text to appear]\(URL) <br />
-The URL will be YourGitHubUserName.github.io/YourRepositoryName/foldername/filename<br /> 
-Do not include the docs folder name in your URL. <br />
-Sample: \[JavaDoc]\(https://pv-cop.github.io/PV-README-TEMPLATE/javadoc/index.html) <br /> <br />
-[JavaDoc](https://pv-cop.github.io/PV-README-TEMPLATE/javadoc/index.html)
+[JavaDoc](https://carolinabado17.github.io/ppCar/)
 
 ## Diagrams
 
-Such as a class diagram. <br /> 
-The markdown is  \!\[Alt text\]\(relative/path/to/img.png) <br />
- ![Sample Image](docs/9919.png)
-
-## Getting Started
-
-Instructions to get a copy of the project up and running on someone's local machine for development and testing purposes.
-<br />
-Note for real project: You want to be able to share your project and enable collaboration. 
-<br />
-Note for school project: You want a potential client or hirer to be able to run your program. 
+![Image description](classDiagramCarKarl.png)
 
 ## Built With
 
-* IDE used  
-* Other software used  
-* Resources used  
-<br />Note for school project: Every section is an opportunity to make an impression. You could briefly add what you know about the IDE and describe your development skills. 
-
-## Contributing
-
-This section is more important for real projects but is good to include in school projects. <br />
-One of the main purposes of GitHub and similar services is to provide a means for project collaboration. <br />
-Tell someone how they can contribute to this project.
+* IntelliJ IDE <br />   
 
 ## Author
 
-* Your name
+* Carolina Bado-Cortes
 
 ## License
 
-Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, you'll need to license it so that others are free to use, change, and distribute the software. https://help.github.com/articles/licensing-a-repository/ <br />
-You have the option to choose a license when you first create your repository. </br>
-If you need to create a license for an existing repository...
-1. Go to your repository.
-2. Click on "Create new file" Button.
-3. Type the file name as License.txt or License.md in the input box next to your repository name, a drop down button appears towards right side.
-4. Choose the type of license of your choice.
-5. Click "Commit new file" button at the bottom (Green button)
-Credit https://stackoverflow.com/questions/31639059/how-to-add-license-to-an-existing-github-project <br />
-To choose a license, see https://choosealicense.com/ 
+https://github.com/carolinabado17/ppCar/blob/master/LICENSE.txt 
 
 ## Acknowledgments
 
-* Web sites utilized
-* Classmates who helped
-* Your professor or TA if they helped
+* StackOverflow - toString()
 
 ## History
 
-Information about what has changed. 
+10/20 - Worked on the interfaces Chassis and Feature <br />
+10/27 - Implemented the Chassis interface into VehicleChassis() and VehicleFrame()<br />
+11/10 - Created the Engine interfaces and implemented it to ManufacturedEngine()<br />
+11/24 - Implemented both Engine and Chassis to class Vehicle()<br />
+12/1 - Implemented Feature into both ExteriorFeature() and InteriorFeature() <br />
+12/8 - Finished the program by extending class Vehicle() to class Car()<br />
 
 ## Key Programming Concepts Utilized
 
-This section would not necessarily be in a real README.  <br />
-It is a reference for you and a place to impress potential employers with your knowledge. 
-Identify what concepts you utilize so when you need to use them again you will know that you will find them here. Include a brief description of the concepts in your own words to help you prepare for related interview questions. 
+Interfaces - its basically a 'contract' *NOT* a blueprint like a class. Used to be able to implement to multiple classes in my program. <br />
+Abstract class - class in which you are unable to create an object. This was used to to extends Vehicle to Car becaue these two are somewhat related. (A car is a vehicle) 
+
+
